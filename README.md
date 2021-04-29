@@ -2,7 +2,7 @@
 
 # Unread
 
-Unread is a bash script that shows a count of unread messages from Mail.app by shelling to AppleScript and showing an open/closed mailbox emoji.
+Unread is a bash script that shows a count of unread messages from Mail.app by shelling to AppleScript and showing an open/closed mailbox emoji. Written as an [xbar](https://xbarapp.com/) plugin but also works as a standalone script.
 
 # Author
 
