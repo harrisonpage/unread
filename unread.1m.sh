@@ -13,7 +13,7 @@ OUTPUT=`osascript -e 'tell Application "Mail"' -e 'unread count of inbox' -e 'en
 if [[ $OUTPUT -gt 0 ]]
 then
   echo -n "📬"
+  echo " ${OUTPUT}"
 else
   echo -n "📪"
 fi
-echo " ${OUTPUT}"
